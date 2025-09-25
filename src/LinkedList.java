@@ -55,12 +55,13 @@ public class LinkedList {
             System.out.print(curr.data + " ");
             curr = curr.next;
         }
+        System.out.println();
     }
     public int getSize() {
         return size;
     }
 
-    static void main() {
+   public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         LinkedList list = new LinkedList();
 
